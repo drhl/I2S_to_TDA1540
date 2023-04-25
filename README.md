@@ -45,8 +45,8 @@ I am using those codes running the [**Intel Altera Max II EMP240 CPLD**](https:/
 
 ---
 ## <a name="references">References</a>
-* [**A Monolithic 14 Bit DA Converter**](pdf/A Monolithic 14 Bit DA Converter.pdf)
-* [**Dynamic Element Matching for High Acuracy Monolithic DAC**](pdf/Dynamic Element Matching for High Acuracy Monolithic DAC.pdf)
+* [**A Monolithic 14 Bit DA Converter**](pdf/A-Monolithic-14-Bit-DA-Converter.pdf)
+* [**Dynamic Element Matching for High Acuracy Monolithic DAC**](pdf/Dynamic-Element-Matching-for-High-Acuracy-Monolithic DAC.pdf)
 * [**I2S Bus**](pdf/I2S.pdf)
 * [**TDA1540D**](pdf/TDA1540D.pdf)
 * [**TDA1540P**](pdf/TDA1540P.pdf)
