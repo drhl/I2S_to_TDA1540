@@ -3,6 +3,7 @@ Welcome to the repository for I2S to Offset Binary Converter.
 
 - [Why?](#why)
 - [Inspiration](#inspiration)
+- [Features](#features)
 - [Code](#code)
 - [IDE](#ide)
 - [Supported devices](#devices)
@@ -16,14 +17,26 @@ I am a little audio freak and I like building my own audio devices. Having a lot
 I have been looking for a solution to my problem for some time. The first was a converter I bought on eBay (I2S is TDA1540 PCM56P PCM58P PCM61P AD1856N AD1860N AD1862N AD1865N) from user chiurutu. Thanks to this board, I was able to run the TDA1540 and fell in love with its sound. Unfortunately, I had to find a more flexible solution. So I found the forum [**thread**](https://www.diyaudio.com/community/threads/tda1540-i2s-to-offset-binary-no-cpld-no-fpga.341478/), which inspired me to delve into FPGAs and had a huge influence on the current codes for this project.
 
 ---
-## <a name="code">Code</a>
-
-    
+## <a name="features">Features</a>
+* Converts I2S format into TDA1540 input format.
+* Supports two I2S inputs selected by a push button.
+* Supports 30s mute after turning on.
+* Supports standard and stopped clock for BCK (TDA's clock pulse input) output.
 
 ---
+## <a name="code">Code</a>
+* [**I2S.bdf**](I2S.bdf)
+Main entry, block schema.
+
+* [**input_selector.v**](input_selector.v)
+Verilog code for input selection function.
+
+* [**mute_sck.v**](mute_sck.v)
+Verilog code for mute function.
+    
+---
 ## <a name="ide">IDE</a>
-
-
+I am using [**Intel® Quartus® Prime Lite Edition**](https://www.intel.pl/content/www/pl/pl/products/details/fpga/development-tools/quartus-prime/resource.html) running on the Linux VM.
 
 ---
 ## <a name="devices">Supported devices</a>]
