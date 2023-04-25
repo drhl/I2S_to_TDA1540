@@ -7,6 +7,7 @@ Welcome to the repository for I2S to Offset Binary Converter.
 - [Code](#code)
 - [IDE](#ide)
 - [Supported devices](#devices)
+- [References](#references)
 
 ---
 ## <a name="why">Why?</a>
@@ -39,5 +40,13 @@ Verilog code for mute function.
 I am using [**Intel® Quartus® Prime Lite Edition**](https://www.intel.pl/content/www/pl/pl/products/details/fpga/development-tools/quartus-prime/resource.html) running on the Linux VM.
 
 ---
-## <a name="devices">Supported devices</a>]
+## <a name="devices">Supported devices</a>
 I am using those codes running the [**Intel Altera Max II EMP240 CPLD**](https://www.intel.pl/content/www/pl/pl/products/sku/210264/max-ii-epm240-cpld/specifications.html)
+
+---
+## <a name="references">References</a>
+* [**A Monolithic 14 Bit DA Converter**](pdf/A Monolithic 14 Bit DA Converter.pdf)
+* [**Dynamic Element Matching for High Acuracy Monolithic DAC**](pdf/Dynamic Element Matching for High Acuracy Monolithic DAC.pdf)
+* [**I2S Bus**](pdf/I2S.pdf)
+* [**TDA1540D**](pdf/TDA1540D.pdf)
+* [**TDA1540P**](pdf/TDA1540P.pdf)
