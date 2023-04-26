@@ -46,7 +46,7 @@ I am using those codes running the [**Intel Altera Max II EMP240 CPLD**](https:/
 
 Tested with I2S input:
 * DATA: 16-24 bits
-* LE: 44.1kHZ, 48kHZ, 88.2kHZ, 96kHZ (should also work with 176.4kHZ and 192kHZ)
+* LE: 44.1kHZ, 48kHZ, 88.2kHZ, 96kHZ (should also work with 176.4kHZ)
 
 ---
 ## <a name="references">References</a>
