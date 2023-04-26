@@ -1,8 +1,23 @@
-module mute_sck(input in_clk, input in_sck, input in_le, output reg out_sck_mute, output reg out_mute_led);
+/*
 
-reg [28:0] counter;
-reg [7:0] seconds;
-reg [1:0] enable;
+Module for mute BCK output for 30 seconds.
+
+Author: drhl
+Year: 2023
+
+*/
+
+module mute_sck(
+	input in_clk, // system clock, 50 MHz
+	input in_sck, // I2S SCK/BCK input
+	input in_le,  // I2S LE input
+	output reg out_sck_mute, // I2S SCK/BCK output with mute function 
+	output reg out_mute_led  // status LED for muted state
+); 
+
+reg [28:0] counter;	// counts in_clk ticks
+reg [7:0] seconds;	// number of elapsed seconds
+reg [1:0] enable;	// BCK output enable flag
 
 initial begin
 	counter <= 0;
