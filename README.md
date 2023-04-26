@@ -26,6 +26,7 @@ I have been looking for a solution to my problem for some time. The first was a 
 
 ---
 ## <a name="code">Code</a>
+
 * [**I2S.bdf**](I2S.bdf)
 Main entry, block schema.
 
@@ -41,7 +42,11 @@ I am using [**Intel® Quartus® Prime Lite Edition**](https://www.intel.pl/conte
 
 ---
 ## <a name="devices">Supported devices</a>
-I am using those codes running the [**Intel Altera Max II EMP240 CPLD**](https://www.intel.pl/content/www/pl/pl/products/sku/210264/max-ii-epm240-cpld/specifications.html)
+I am using those codes running the [**Intel Altera Max II EMP240 CPLD**](https://www.intel.pl/content/www/pl/pl/products/sku/210264/max-ii-epm240-cpld/specifications.html).
+
+Tested with I2S input:
+* DATA: 16-24 bits
+* LE: 44.1kHZ, 48kHZ, 88.2kHZ, 96kHZ (should also work with 176.4kHZ and 192kHZ)
 
 ---
 ## <a name="references">References</a>
